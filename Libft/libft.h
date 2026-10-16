@@ -6,7 +6,7 @@
 /*   By: jbech-ca <jbech-ca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/23 14:06:11 by jbech-ca          #+#    #+#             */
-/*   Updated: 2026/10/15 12:36:47 by jbech-ca         ###   ########.fr       */
+/*   Updated: 2026/10/16 15:10:08 by jbech-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <stddef.h>
 # include <stdlib.h>
-# include <stdio.h>
 # include <unistd.h>
 
 int				ft_isalpha(int c);
