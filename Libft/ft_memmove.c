@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbech-ca <jbech-ca@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: jbech-ca <jbech-ca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 14:02:11 by jbech-ca          #+#    #+#             */
-/*   Updated: 2026/09/24 14:05:09 by jbech-ca         ###   ########.fr       */
+/*   Updated: 2026/10/19 10:04:56 by jbech-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	unsigned char		*dest_temp;
 	const unsigned char	*src_temp;
 
+	if (!dest && !src)
+		return (NULL);
 	if (dest <= src)
 	{
 		return (ft_memcpy(dest, src, n));
